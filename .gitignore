@@ -1,0 +1,55 @@
+## Ignore build output
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+.env
+
+## IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+## ASP.NET-specific
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+
+## Logs
+*.log
+logs/
+*.tlog
+
+## Package management
+*.nupkg
+packages/
+.nuget/
+
+## Dependency cache
+project.lock.json
+project.fragment.lock.json
+
+## Others
+*.db
+*.pidb
+*.svclog
+*.pdb
+*.cache
+*.vs/
+
+## Rider
+.idea/
+*.sln.iml
+
+## Mac and Linux
+.DS_Store
+Thumbs.db
+
+
+uploads/*

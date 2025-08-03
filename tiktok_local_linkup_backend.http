@@ -1,0 +1,6 @@
+@tiktok_local_linkup_backend_HostAddress = http://localhost:5040
+
+GET {{tiktok_local_linkup_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
